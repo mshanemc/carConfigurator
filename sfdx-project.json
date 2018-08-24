@@ -2,18 +2,17 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true,
             "package": "carConfigurator",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
+            "versionNumber": "0.2.0.NEXT",
             "definitionFile": "config/project-scratch-def.json"
-
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "43.0",
     "packageAliases": {
-        "carConfigurator": "0HoB000000000AgKAI"
+        "carConfigurator": "0HoB000000000AgKAI",
+        "carConfigurator@0.2.0-1": "04tB0000000ACNjIAO"
     }
 }
