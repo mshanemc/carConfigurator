@@ -1,7 +1,11 @@
-.THIS .description{
-    min-height: 70px;
+.THIS .description {
+  min-height: 70px;
 }
 
 .THIS img {
   width: 100%;
+}
+
+.THIS .slds-grid_vertical-stretch {
+  height:100%;
 }
