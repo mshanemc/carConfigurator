@@ -186,7 +186,7 @@
           Volvo Cars of the Woodlands
         </div>
         <!-- <lightning:map mapMarkers="{!v.markers}"/> -->
-        <a href="https://www.google.com/maps/dir//16785+A+Interstate+45+S/">
+        <a href="https://www.google.com/maps/dir//16785+A+Interstate+45+S/" target="_blank">
           <img src="https://raw.githubusercontent.com/mshanemc/carConfigurator/master/assets/map.png"
           />
         </a>
