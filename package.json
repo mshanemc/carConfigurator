@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sfdx shane:org:delete; ./orgInit.sh",
     "deployability": "sfdx shane:org:delete -u deployTargetTest; sfdx force:org:create -f config/project-scratch-def.json -d 1 -a deployTargetTest && sfdx force:source:push -u deployTargetTest",
-    "destroy": "sfdx shane:org:delete"
+    "destroy": "sfdx shane:org:delete",
+    "package": "sfdx shane:package2:version:bump -m -c -r; git add sfdx-project.json; git add latestVersion.json; git commit -m 'version bump'; git push origin master"
   },
   "nodemonConfig": {
     "watch": [
