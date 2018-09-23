@@ -24,7 +24,7 @@
   <lightning:layout horizontalAlign="space" verticalAlign="stretch" multipleRows="true">
     <aura:iteration items="{!v.vehicles}" var="car">
 
-      <lightning:layoutItem size="12" smallDeviceSize="6" mediumDeviceSize="6" largeDeviceSize="4">
+      <lightning:layoutItem size="12" smallDeviceSize="6" mediumDeviceSize="4" largeDeviceSize="4">
         <lightning:layout horizontalAlign="center" verticalAlign="stretch" class="slds-grid_vertical">
           <lightning:layoutItem padding="around-medium" flexibility="no-grow">
 
