@@ -4,7 +4,7 @@
             "path": "force-app",
             "package": "carConfigurator",
             "versionName": "ver 0.1",
-            "versionNumber": "0.7.0.NEXT",
+            "versionNumber": "0.8.0.NEXT",
             "definitionFile": "config/project-scratch-def.json"
         }
     ],
@@ -16,6 +16,7 @@
         "carConfigurator@0.2.0-1": "04tB0000000ACNjIAO",
         "carConfigurator@0.3.0-1": "04tB00000006ds3IAA",
         "carConfigurator@0.6.0-1": "04tB00000006fEoIAI",
-        "carConfigurator@0.7.0-1": "04tB00000006fEtIAI"
+        "carConfigurator@0.7.0-1": "04tB00000006fEtIAI",
+        "carConfigurator@0.8.0-1": "04tB00000006gxAIAQ"
     }
 }
